@@ -1,3 +1,4 @@
+//Finding the target in Infinite Array
 public class getcode {
     public static void main(String[] args) {
         // Infinite Array Simulation
