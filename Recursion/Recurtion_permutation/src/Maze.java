@@ -5,10 +5,31 @@ public class Maze {
         //System.out.println(count(3,3));
         //ShowPattern("",3,3);
         //System.out.println(ShowPatternRet("",3,3));
-        System.out.println(ShowPatternRetDigonal("",3,3));
-        ShowPatternDigonal("",3,3);
+        //System.out.println(ShowPatternRetDigonal("",3,3));
+        //ShowPatternDigonal("",3,3);
+        boolean[][] board = {
+                {true,true,true},
+                {true,false,true},
+                {true,true,true}
 
+        };
+        ShowPatternRetObstrical("",board,0,0);
      }
+    static void ShowPatternRetObstrical(String result, boolean[][] maze, int r, int c){
+        if(r == maze.length-1 && c == maze[0].length-1){
+            System.out.println(result);
+            return;
+        }
+        if(!maze[r][c]){
+            return;
+        }
+        if(r<maze.length-1){
+            ShowPatternRetObstrical(result + 'D',maze, r+1,c);
+        }
+        if(c<maze[0].length-1){
+            ShowPatternRetObstrical(result + 'R', maze,r,c+1);
+        }
+    }
     static int count(int r, int c){
         if(r == 1 || c == 1){
             return 1;
@@ -17,6 +38,7 @@ public class Maze {
         int right = count(r,c-1);
         return left +right;
     }
+
 
     static void ShowPattern(String result, int r, int c){
         if(r == 1 && c == 1){
@@ -82,4 +104,6 @@ public class Maze {
         }
         return list;
     }
+//with obstetrical
+
 }
