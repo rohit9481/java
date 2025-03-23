@@ -1,0 +1,110 @@
+🔥 Must-Know (High Priority)
+These are commonly asked in interviews and cover fundamental recursion concepts:
+
+Easy
+Binary Search using Recursion (LeetCode)
+
+Reverse String (LeetCode)
+
+Fibonacci Number (LeetCode)
+
+Power of Two / Three / Four (LeetCode)
+
+Factorial of a Number (HackerRank)
+
+Check Whether an Array is Sorted or Not (GFG)
+
+Number of Steps to Reduce a Number to Zero (LeetCode)
+
+Medium
+Combination Sum (LeetCode)
+
+Word Search (LeetCode)
+
+Target Sum (LeetCode)
+
+Pow(x, n) (LeetCode)
+
+Letter Combinations of a Phone Number (LeetCode)
+
+Sudoku Solver (LeetCode)
+
+All Paths from Source to Target (LeetCode)
+
+Sort a Stack using Recursion (GFG)
+
+Reverse a Stack using Recursion (GFG)
+
+Rat in a Maze (GFG)
+
+Hard
+N-Queens (LeetCode)
+
+N-Queens II (LeetCode)
+
+Word Break II (LeetCode)
+
+M Coloring Problem (GFG)
+
+The Knight's Tour (GFG)
+
+📌 Good to Know (Medium Priority)
+These reinforce recursion and backtracking concepts, useful for interviews:
+
+Easy
+Check Prime or Not (GFG)
+
+Power Set of Permutations in Lexicographic Order (GFG)
+
+Print All Possible Palindromic Partitions of a String (GFG)
+
+Medium
+Find Kth Bit in Nth Binary String (LeetCode)
+
+Letter Tile Possibilities (LeetCode)
+
+Predict the Winner (LeetCode)
+
+Beautiful Arrangement (LeetCode)
+
+Lowest Common Ancestor of a Binary Tree (GFG)
+
+Path with Maximum Gold (LeetCode)
+
+Longest Possible Route in a Matrix with Hurdles (GFG)
+
+Tug of War (GFG)
+
+Hard
+Parsing a Boolean Expression (LeetCode)
+
+Permutation Sequence (LeetCode)
+
+Minimum Steps to Destination (GFG)
+
+Hamiltonian Cycle (GFG)
+
+💡 Bonus (Low Priority)
+These are less common in interviews but good for practice:
+
+Easy
+Geek-onacci Number (GFG)
+
+Sum of Natural Numbers using Recursion (GFG)
+
+Medium
+Handshakes (GFG)
+
+Find the Winner of the Circular Game (LeetCode)
+
+Hard
+Maximize Number of Nice Divisors (LeetCode)
+
+Find Shortest Safe Route in a Path with Landmines (GFG)
+
+🚀 Final Recommendation
+First focus on "Must-Know" problems, as they are most frequently asked.
+
+Then move to "Good to Know" for deeper understanding and preparation.
+
+Finally, explore "Bonus" if time permits.
