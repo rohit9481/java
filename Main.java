@@ -1,25 +1,41 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
-        int[] nums = {23, 43, 54, 2134, 1, 22, -11, 28};
-        int target = 1;
-        int ans = linersearch(nums, target);
-        //boolean ans = linersearch(nums, target);
-        System.out.println(ans);
-    }
-    // static boolean linersearch(int[] arr, int target) {
-    static int linersearch(int[] arr, int target) {
-        if (arr.length == 0) {
-           // System.out.print("fals");
-            return -1;
-        }
-        for (int index = 0; index < arr.length; index++) {
-            int elements = arr[index];
-            if (elements == target) {
-                return index;//true
-            }
-        }
-        return -1;//false
+        StringBuffer sb = new StringBuffer();
+       // System.out.println(sb.capacity());
+        StringBuffer sb1 = new StringBuffer(30);
+        //System.out.println(sb1.capacity());
+        StringBuffer sb2 = new StringBuffer("Rohitfyfjfufufyffyfjyfjfffjygy");
+        //.out.println(sb2.capacity());
+
+
+        sb.append("Rohit");
+        sb.append(" yakkundi");
+//        sb.insert(5," from ");
+//        sb.replace(1,4,"HHH");
+        String str = sb.toString();
+        //System.out.println(str);
+
+
+        // Generating random car
+        int n=4;
+        String name = RandomString.generate(n);
+        //System.out.println(name);
+
+        //string
+        String string = "Hi I AM SELF MADE BILLIONAIRE  ";
+        //System.out.println(string);
+
+        //System.out.println(string.replaceAll("\\s",""));
+
+        //string split then showing like arrays
+        String arr= "Rohit Kunal Rakesh";
+        String[] names= arr.split(" ");
+        System.out.println(Arrays.toString(names));
+
+        // rounding off
+
+
     }
 }
