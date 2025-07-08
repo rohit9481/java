@@ -1,1 +1,16 @@
 
+import java.awt.*;
+
+public class MyAWT {
+    public static void main(String[] args) {
+        Frame f = new Frame("AWT Example");     // Create window
+        Button b = new Button("Click Me");      // Create button
+
+        b.setBounds(100, 100, 80, 30);          // x, y, width, height
+        f.add(b);                               // Add button to frame
+
+        f.setSize(300, 300);                    // Window size
+        f.setLayout(null);                      // No layout manager
+        f.setVisible(true);                     // Make window visible
+    }
+}
