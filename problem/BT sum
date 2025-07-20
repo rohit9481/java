@@ -1,0 +1,42 @@
+✅ Example:
+Given tree:
+
+markdown
+Copy
+Edit
+        5
+       / \
+      3   8
+     / \   \
+    1   4   9
+Given list: [5, 3, 4]
+
+Output: true (this is a valid root-to-leaf path: 5 → 3 → 4)
+
+Given list: [5, 8, 4]
+
+Output: false (no such path exists)
+
+✅ Java Solution (DFS based):
+java
+Copy
+Edit
+class Solution {
+    public boolean isPathPresent(TreeNode root, int[] arr) {
+        return dfs(root, arr, 0);
+    }
+
+    private boolean dfs(TreeNode node, int[] arr, int index) {
+        if (node == null || index >= arr.length || node.val != arr[index]) {
+            return false;
+        }
+
+        // If it's a leaf node and we've matched the entire list
+        if (node.left == null && node.right == null && index == arr.length - 1) {
+            return true;
+        }
+
+        // Recur on left and right subtrees
+        return dfs(node.left, arr, index + 1) || dfs(node.right, arr, index + 1);
+    }
+}
